@@ -15,7 +15,7 @@ Doesn't validate if email input is an email type.
 ## Technologies Used
 HTML, CSS, Bootstrap, JS, Jquery, Google Fonts, Mail Chimp
 ## Support and contact details
-Incase of any issues feel free to contact me via email at bryomajor@gmail.com
+Incase of any issues feel free to contact me via email at hamsoace@gmail.com
 ### License
 *MIT Licence*
 Copyright (c) 2020 **Hamisi Andale**
