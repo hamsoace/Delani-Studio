@@ -1,74 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Delani Studios</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-      <div class="container">
-          <div class="section1">
-              <div class="row">
-                  <div class="first-text jumbotron">
-                      <p><BR><BR><BR></p>
-                      <img src="css/assets/logo.png">
-                      <p><bold><BR><BR><BR>WELCOME<BR> TO DELANI STUDIOS</bold></p>
-                      <h4>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<br><br><br></h4>
-                      <img src="css/assets/mouse_click.png">
-                  </div>
-              </div>
-          </div>
-        <div class="section2">
-            <div class="row">
-                <div class="second-text">
-                    <p>ABOUT US</p><BR>
-                    <p>When you work with us, you are part of a team of committed collaborators.<br>All aspects of our software development process are integrated, iterative and agile.</p><p>Our approach unifies design, development and<br> project management to create exceptional products. <br>We start each project by understanding our business goals, <br>the user's needs and the products requirements.<br>Then we help translate them into effective and elegant solutions</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delani Studio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto&display=swap" rel="stylesheet">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header id="banner">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center text-white">
+                <div class="col-12">
+                    <img class="mx-auto d-block " src="assets/logo/logo.png">
+                    <h1 class="text-center mt-5 text-capitalize text-white">WELCOME <br> TO DELANI STUDIO</h1>
+                    <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                    <a href="#about-us"><img class="mx-auto d-block mt-5 jump" src="assets/mouse_click.png"></a>
                 </div>
             </div>
         </div>
-            <div class="section3">
-                <br><br><br>
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="third-text">
-                    <p>Before We sign a contract or write a line of code, our team will spend the necessary <br> time needed to understand our product vision.<br>The outcome of this scoping session is a proposal or high-level statement of work.<br>Based on your requirements, we can provide a complete offering or just the pieces<br>you need.  </p>
-                    </div>
-                    <div class="col-md-4"></div>
+    </header>
+    <section id="about-us">
+        <div class="container">
+            <h3 class="font-weight-light text-center mt-5 mb-4 text-capitalize">ABOUT US</h3>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive and agile.</p>
+                    <p>Our approach unifies design, development and product management to create exceptional products.</p>
+                    <p>We start each project by understanding your business goals, the user's needs and the product requirements.</p>
+                    <p>Then we help translate them into effective and elegant solutions.</p>
                 </div>
             </div>
-            <div class="section4">
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                        <div class="fourth-text">
-                            <h1>WHAT WE DO</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-4"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container text-white custom-padding">
+            <h3 class="font-weight-light text-center mt-5 pt-5 mb-4 text-capitalize">SERVICES</h3>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
+                    <p>The outcome of this scoping session is proposal or high-level statement of work, based on your requirements, we can provide a complete offering or just the pieces you need.</p>
                 </div>
             </div>
-      </div>
+        </div>
+    </section>
+    <section id="what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="font-weight-light text-center mt-5 mb-4 text-capitalize">WHAT WE DO</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img  class="mx-auto d-block" src="assets/services_icons/design_icon.png" id="design">
+                    <h5 class="mt-2">DESIGN</h5>
+                    <p id="design-p">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+                <div class="col-4">
+                    <img class="mx-auto d-block" src="assets/services_icons/dev_icon.png" id="development">
+                    <h5 class="mt-2">DEVELOPMENT</h5>
+                    <p id="development-p">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                </div>
+                <div class="col-4">
+                    <img class="mx-auto d-block" src="assets/services_icons/product_icon.png" id="product">
+                    <h5 class="mt-2">PRODUCT MANAGEMENT</h5>
+                    <p id="product-p">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+This iterative process allows for changes as business requirements evolve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container h-100">
+            <h3 class="font-weight-light text-center mt-5 mb-4 text-capitalize">PORTFOLIO</h3>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+            <div class="row text-center text-lg-left">
+            
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap1">
+                    <img class="img-fluid" src="assets/portfolio/work4.jpg" alt="">
+                    <div id="overlay1"  class="overlay">
+                        <h4 class="project">Project 1</h4>
+                    </div>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap2">
+                    <img class="img-fluid" src="assets/portfolio/work3.jpg" alt="">
+                    <div id="overlay2"  class="overlay">
+                        <h4 class="project">Project 2</h4>
+                    </div>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap3">
+                    <img class="img-fluid" src="assets/portfolio/work2.jpg" alt="">
+                    <div id="overlay3"  class="overlay">
+                        <h4 class="project">Project 3</h4>
+                    </div>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap4">
+                    <img class="img-fluid" src="assets/portfolio/work1.jpg" alt="">
+                    <div id="overlay4"  class="overlay">
+                        <h4 class="project">Project 4</h4>
+                    </div>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap5">
+                    <img class="img-fluid" src="assets/portfolio/work5.jpg" alt="">
+                    <div id="overlay5"  class="overlay">
+                        <h4 class="project">Project 5</h4>
+                    </div>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap6">
+                    <img class="img-fluid" src="assets/portfolio/work6.jpg" alt="">
+                    <div id="overlay6"  class="overlay">
+                        <h4 class="project">Project 6</h4>
+                    </div>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap7">
+                    <img class="img-fluid" src="assets/portfolio/work7.jpg" alt="">
+                    <div id="overlay7" class="overlay" >
+                        <h4 class="project">Project 7</h4>
+                    </div>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="#" class="d-block mb-4 h-100" id="wrap8">
+                    <img class="img-fluid" src="assets/portfolio/work8.jpg" alt="">
+                    <div id="overlay8" class="overlay">
+                        <h4 class="project">Project 8</h4>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <form onsubmit="main()" action="https://gmail.us3.list-manage.com/subscribe/post?u=24353a458d185f0865e51e87e&amp;id=7e5d38ec99" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="container custom-padding">
+                <h3 class="font-weight-light text-center mb-4 text-capitalize text-white pt-5">CONTACT US</h3>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <input type="text" class="text-white" placeholder="Name..." value="" name="FNAME" class="" id="mce-FNAME">
+                        <input class="ml-2 text-white" placeholder="Email..." type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <input type="text" class="msg mt-2 text-white" placeholder="Your message here..." value="" name="MESSAGE" id="mce-MESSAGE">
+                    </div>
+                    <div class=" clear col-2 mt-3 mx-auto mb-4">
+                        <input type="submit"  value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <a href="#">
+                        <img src="assets/social_icons/twitter.png">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/dribble.png" class="ml-3">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/facebook.png" class="ml-3">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/g_plus.png" class="ml-3">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/skype.png" class="ml-3">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/stumble_upon.png" class="ml-3">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/behance.png" class="ml-3">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/pinterest.png" class="ml-3">
+                    </a>
+                    <a href="#">
+                        <img src="assets/social_icons/flickr.png" class="ml-3">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-center mt-5">DELANI STUDIO <br> 2020</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+</body>
 </html>
