@@ -141,5 +141,6 @@ input {
 }
 
 #wrap1:hover, #wrap2:hover, #wrap3:hover, #wrap4:hover, #wrap5:hover, #wrap6:hover, #wrap7:hover, #wrap8:hover{
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    transition: all 1s ease-in-out; 
 }
